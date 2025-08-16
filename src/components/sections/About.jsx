@@ -201,32 +201,46 @@ export const About = () => {
 
 
     return (<section id="about" className="min-h-screen flex items-center justify-center py-20" >
-        <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <div className="px-4 items-center justify-center">
+            <h2 className=" max-w-3xl mx-auto  text-3xl font-bold mb-8 bg-gradient-to-r from-zinc-700 to-zinc-700 bg-clip-text text-transparent text-center">
                 {""}
                 About Me
             </h2>
-            <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+            <div className=" max-w-3xl mx-auto  rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
                     Passionate developer bla bla bla bla bla bla bla bla bla bla bla bla
                 </p>
             </div>
 
-            <div className="gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                     <h3 className="text-xl font-bold mb-4 text-center"> 🏫 Education </h3>
-                    <div className="w-full py-4">
-                        <StickyScroll content={content} />
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <li>
+                            <strong> Computer Science </strong> Telkom University (2021-2025)
+                        </li>
+                        <li>
+                            Relevant Coursework : Data Structures, Web Development, Cyber Security ...
+                        </li>
+                    </ul>
+                </div>
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+                    <h3 className="text-xl font-bold mb-4 text-center"> 💼 Work Experience </h3>
+                    <div className="space-y-4 text-gray-300">
+                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+                        <Timeline data={data} />
+                    </div>
                     </div>
                 </div>
-            </div>
-
-            <div className="gap-6 mt-8 relative w-full overflow-clip">
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                    <Timeline data={data} />
                 </div>
+
+
+
+                <div className="gap-6 mt-8 relative w-full overflow-clip">
+                    
+                </div>
+                
             </div>
-        </div>
     </section>
 
     );
