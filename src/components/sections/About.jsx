@@ -200,7 +200,7 @@ export const About = () => {
     ];
 
 
-    return (<section id="about" className="min-h-screen flex items-center justify-center py-20" >
+    return (<section id="about" className="min-h-screen flex items-center justify-center py-20 bg-[#bad6eb]" >
         <div className="px-4 items-center justify-center">
 
             <h2 className=" max-w-3xl mx-auto  text-3xl font-bold mb-8 bg-gradient-to-r from-zinc-700 to-zinc-700 bg-clip-text text-transparent text-center">
@@ -220,9 +220,9 @@ export const About = () => {
                 </div>
                 <div className="col-span-2 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                     <h1 className="space-y-4 flex flex-wrap text-black font-bold text-5xl">
-                        <span className="mr-5 text-[#1F4529]">Hi!</span>
-                        <span className="mr-4 text-[#e84797]">I'M</span>
-                        <span className="mr-4 text-[#df8ba8]">Tania</span>
+                        <span className="mr-3 text-[#304a91]">Hi!</span>
+                        <span className="mr-3 text-[#304a91]">I'm</span>
+                        <span className="mr-3 text-[#e84797]">Tania</span>
                     </h1>
                     <div className="space-y-4 texttext-[#1F4529]">
                         <div className="rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
@@ -237,26 +237,26 @@ export const About = () => {
 
 
 
-            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
+                <div className="p-6 rounded-xl border-[#304a91] border hover:-translate-y-1 transition-all ">
                     <h3 className="text-xl font-bold mb-4 text-center"> 🏫 Education </h3>
                     <ul className="list-disc list-inside text-[#e84797] space-y-2">
-                        
+
                         <div class="relative border-l-4 border-[#e84797] ml-6">
-                            
+
                             <div class="mb-10 ml-6">
-                                <div class="absolute w-4 h-4 bg-[#b6bb79] rounded-full -left-[10px] mt-2"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-[#f283af]">2021 - 2025</time>
+                                <div class="absolute w-4 h-4 bg-[#6a88be] rounded-full -left-[10px] mt-2"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-[#304a91]">2021 - 2025</time>
                                 <div class="p-4 border rounded-xl bg-white shadow-sm">
                                     <h3 class="font-semibold">Bachelor of Informatics</h3>
                                     <p class="text-gray-600 text-sm">Telkom University</p>
                                 </div>
                             </div>
 
-                            
+
                             <div class="mb-10 ml-6">
-                                <div class="absolute w-4 h-4 bg-[#b6bb79] rounded-full -left-[10px] mt-2"></div>
-                                <time class="mb-1 text-sm font-normal leading-none text-[#f283af]">2018 - 2021</time>
+                                <div class="absolute w-4 h-4 bg-[#6a88be] rounded-full -left-[10px] mt-2"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-[#304a91]">2018 - 2021</time>
                                 <div class="p-4 border rounded-xl bg-white shadow-sm">
                                     <h3 class="font-semibold">Diploma in Information Technology</h3>
                                     <p class="text-gray-600 text-sm">SMK Telkom Purwokerto</p>
@@ -266,23 +266,61 @@ export const About = () => {
 
                     </ul>
                 </div>
-                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                    <h3 className="text-xl font-bold mb-4 text-center"> ✨ Experience With </h3>
+                <div className="p-6 rounded-xl border-[#304a91] border hover:-translate-y-1 transition-all ">
+                    <h3 className="text-xl font-bold mb-4 text-center"> ✨ Experience With ✨ </h3>
                     <div className="space-y-4 text-gray-300">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                            
+                        <div className="p-2 rounded-xl border hover:-translate-y-1 transition-all ">
+
+                            {/* Grid Container */}
+                            <div className="max-w-4xl mx-auto grid grid-cols-4 md:grid-cols-5 gap-6 justify-items-center">
+                                
+                                {/* Card Skill */}
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/Figma.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/Laravel.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/react.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/flutter.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/python.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/javascript.svg" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/css.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+
+                                <div className="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-gray-50 shadow-md hover:scale-105 transition">
+                                    <img src="/assets/html2.png" alt="Figma" className="w-10 h-10" />
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
+                    
                 </div>
             </div>
+        </div>
 
 
 
-            <div className="gap-6 mt-8 relative w-full overflow-clip">
-
-            </div>
+        <div className="gap-6 mt-8 relative w-full overflow-clip">
 
         </div>
+
+    </div >
     </section >
 
     );

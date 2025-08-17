@@ -6,12 +6,12 @@ export const Home = () => {
         <section id="home" className="min-h-screen flex items-center justify-center relative">
             
             <div className="text-center z-10 px-4">
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-rose-300 to-rose-300 bg-clip-text text-transparent leading-tight [-webkit-text-stroke:1px_black] [paint-order:stroke_fill]">
+                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#6a88be] to-[#6a88be] bg-clip-text text-transparent leading-tight ">
                     Hi, I'm Nur Fitri Lukitania
                 </h1>
                 {/* Untuk Lingkaran */}
                 <div className="relative w-full h-[250px] flex items-start justify-center relative">
-                    <div className="absolute bottom-0 w-[350px] h-[200px] bg-rose-300 rounded-t-full z-0 border border-zinc-1000"></div>
+                    <div className="absolute bottom-0 w-[350px] h-[200px] bg-[#6a88be] rounded-t-full z-0 "></div>
                     <div className="absolute bottom-0 w-50 ">
                         <img
                             src="/assets/Foto.png"
