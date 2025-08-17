@@ -202,46 +202,88 @@ export const About = () => {
 
     return (<section id="about" className="min-h-screen flex items-center justify-center py-20" >
         <div className="px-4 items-center justify-center">
+
             <h2 className=" max-w-3xl mx-auto  text-3xl font-bold mb-8 bg-gradient-to-r from-zinc-700 to-zinc-700 bg-clip-text text-transparent text-center">
                 {""}
                 About Me
             </h2>
-            <div className=" max-w-3xl mx-auto  rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                <p className="text-gray-300 mb-6">
-                    Passionate developer bla bla bla bla bla bla bla bla bla bla bla bla
-                </p>
+
+            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+                <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                        <img
+                            src="/assets/Foto2.png"
+                            alt="Foto"
+                            className="object-cover w-80 h-80"
+                        />
+                    </ul>
+                </div>
+                <div className="col-span-2 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+                    <h1 className="space-y-4 flex flex-wrap text-black font-bold text-5xl">
+                        <span className="mr-5 text-[#1F4529]">Hi!</span>
+                        <span className="mr-4 text-[#e84797]">I'M</span>
+                        <span className="mr-4 text-[#df8ba8]">Tania</span>
+                    </h1>
+                    <div className="space-y-4 texttext-[#1F4529]">
+                        <div className="rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
+                            bla bla bla bla bla bla bla bla bla bla bla bla
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+
+
+
+
+            <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-5">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                     <h3 className="text-xl font-bold mb-4 text-center"> 🏫 Education </h3>
-                    <ul className="list-disc list-inside text-gray-300 space-y-2">
-                        <li>
-                            <strong> Computer Science </strong> Telkom University (2021-2025)
-                        </li>
-                        <li>
-                            Relevant Coursework : Data Structures, Web Development, Cyber Security ...
-                        </li>
+                    <ul className="list-disc list-inside text-[#e84797] space-y-2">
+                        
+                        <div class="relative border-l-4 border-[#e84797] ml-6">
+                            
+                            <div class="mb-10 ml-6">
+                                <div class="absolute w-4 h-4 bg-[#b6bb79] rounded-full -left-[10px] mt-2"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-[#f283af]">2021 - 2025</time>
+                                <div class="p-4 border rounded-xl bg-white shadow-sm">
+                                    <h3 class="font-semibold">Bachelor of Informatics</h3>
+                                    <p class="text-gray-600 text-sm">Telkom University</p>
+                                </div>
+                            </div>
+
+                            
+                            <div class="mb-10 ml-6">
+                                <div class="absolute w-4 h-4 bg-[#b6bb79] rounded-full -left-[10px] mt-2"></div>
+                                <time class="mb-1 text-sm font-normal leading-none text-[#f283af]">2018 - 2021</time>
+                                <div class="p-4 border rounded-xl bg-white shadow-sm">
+                                    <h3 class="font-semibold">Diploma in Information Technology</h3>
+                                    <p class="text-gray-600 text-sm">SMK Telkom Purwokerto</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </ul>
                 </div>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                    <h3 className="text-xl font-bold mb-4 text-center"> 💼 Work Experience </h3>
+                    <h3 className="text-xl font-bold mb-4 text-center"> ✨ Experience With </h3>
                     <div className="space-y-4 text-gray-300">
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                        <Timeline data={data} />
+                            
+                        </div>
                     </div>
-                    </div>
                 </div>
-                </div>
-
-
-
-                <div className="gap-6 mt-8 relative w-full overflow-clip">
-                    
-                </div>
-                
             </div>
-    </section>
+
+
+
+            <div className="gap-6 mt-8 relative w-full overflow-clip">
+
+            </div>
+
+        </div>
+    </section >
 
     );
 };
