@@ -1,55 +1,61 @@
-import Foto from '../../assets/Foto.png';
-
+import Foto from "../../assets/Foto.png";
 
 export const Home = () => {
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative">
-            
-            <div className="text-center z-10 px-4">
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-[#6a88be] to-[#6a88be] bg-clip-text text-transparent leading-tight ">
-                    Hi, I'm Nur Fitri Lukitania
-                </h1>
-                {/* Untuk Lingkaran */}
-                <div className="relative w-full h-[250px] flex items-start justify-center relative">
-                    <div className="absolute bottom-0 w-[350px] h-[200px] bg-[#6a88be] rounded-t-full z-0 "></div>
-                    <div className="absolute bottom-0 w-50 ">
-                        <img
-                            src="/assets/Foto.png"
-                            alt="Foto"
-                            className="w-full h-full object-cover"
-                        />
-                    </div>
-                    <div className="absolute top-70 flex justify-center space-x-4">
-                        <a href="#projects" className="bg-rose-300 border shadow-xs/50 text-zinc-800 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-                            View Projects
-                        </a>
-                        <a href="#contact" className="border border-lime-700/50 shadow-xs/50 text-lime-700 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-                            Contact Me
-                        </a>
-                    </div>
-                    <div className="absolute bottom-[10px] -left-5 text-center w-50">
-                        <h2 className="text-lg font-semibold py-2"> 🤝 </h2>
-                        <p className="text-sm text-black-600">As a graduate of Informatics from Telkom University, I, Nur Fitri Lukitania, have a strong interest in Mobile and Web Development as well as Cyber Security.
-                        </p>
-                    </div>
-                    <div className="absolute bottom-[10px] right-4 text-left w-40 ">
-                        <h2 className="text-lg font-semibold py-4">Experience With</h2>
-                        <div className="grid grid-cols-4 gap-4">
-                            <img src="/assets/Figma.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/Laravel.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/react.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/flutter.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/python.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/javascript.svg" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/css.png" alt="Foto" className="w-auto h-auto" />
-                            <img src="/assets/html2.png" alt="Foto" className="w-auto h-auto" />
-                        </div>
+        <section className="min-h-screen flex items-center justify-center bg-pink-50">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
 
+                {/* Kiri - Text */}
+                <div className="space-y-6">
+                    <p className="text-gray-600">Hey, I'm Nur Fitri</p>
+                    <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+                        A <span className="text-[#e84797]">UI/UX</span> & Brand Designer
+                    </h1>
+                    <p className="text-gray-600 max-w-md">
+                        Transforming ideas into stunning visuals – UI/UX and brand design
+                        that captivates, engages, and delivers results.
+                    </p>
+                    <div className="flex space-x-4 mt-6">
+                        <button className="px-6 py-3 rounded-full bg-[#4d84cf] text-white font-medium shadow transition hover:-translate-y-0.5 hover:shadow-lg">
+                            Contact Me
+                        </button>
+                        <button className="px-6 py-3 rounded-full border border-[#f283af] text-[#e84797] font-medium shadow transition hover:-translate-y-0.5 hover:bg-pink-100">
+                            View Projects
+                        </button>
                     </div>
                 </div>
 
+                {/* Kanan - Foto + Stats */}
+                <div className="flex flex-col items-center relative mt-10">
+                    {/* Foto */}
+                    <div className="w-[300px] h-[300px] rounded-full overflow-hidden shadow-lg">
+                        <img
+                            src={Foto}
+                            alt="Foto"
+                            className=" object-cover"
+                        />
+                    </div>
 
-
+                    {/* Stats */}
+                    <div className="grid grid-cols-2 gap-6 mt-8 text-center">
+                        <div>
+                            <p className="text-2xl font-bold text-[#6a88be]">15+</p>
+                            <p className="text-sm text-gray-600">Years Experience</p>
+                        </div>
+                        <div>
+                            <p className="text-2xl font-bold text-[#f283af]">280+</p>
+                            <p className="text-sm text-gray-600">Projects Delivered</p>
+                        </div>
+                        <div>
+                            <p className="text-2xl font-bold text-[#f283af]">98%</p>
+                            <p className="text-sm text-gray-600">Client Satisfaction</p>
+                        </div>
+                        <div>
+                            <p className="text-2xl font-bold text-[#6a88be]">50</p>
+                            <p className="text-sm text-gray-600">Clients Worldwide</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     );
