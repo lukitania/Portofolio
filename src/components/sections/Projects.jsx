@@ -2,6 +2,7 @@ import { HoverEffect } from "../ui/card";
 import { BackgroundGradient } from "../ui/gradient";
 
 
+
 export const Projects = () => {
     const listprojects = [
         {
@@ -50,7 +51,7 @@ export const Projects = () => {
 
     return (
         <section
-            id="project"
+            id="projects"
             className="min-h-screen flex items-center justify-center py-20"
         >
             <div className="flex flex-col text-justify items-center w-full max-w-5xl mx-auto px-8">

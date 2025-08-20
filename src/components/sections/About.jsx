@@ -220,7 +220,7 @@ export const About = () => {
                 <div className="p-6 rounded-xl bg-pink-50 border-transparent border hover:-translate-y-1 transition-all ">
                     <h3 className="text-xl font-bold mb-4 text-center"> ✨ Experience With ✨ </h3>
                     <div className="space-y-4 text-gray-300">
-                        <div className="p-2 rounded-xl border hover:-translate-y-1 transition-all ">
+                        <div className="p-2 rounded-xl border-TRANSPARENT hover:-translate-y-1 transition-all ">
 
                             {/* Grid Container */}
                             <div className="max-w-4xl mx-auto grid grid-cols-4 md:grid-cols-5 gap-6 justify-items-center">
