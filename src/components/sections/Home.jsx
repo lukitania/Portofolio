@@ -80,14 +80,31 @@ export const Home = () => {
 
                 {/* Kiri - Text */}
                 <div className="space-y-6">
-                    <p className="text-gray-600">Hey, I'm Nur Fitri</p>
+                    <p className="text-gray-600"></p>
                     <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                        A <span className="text-[#e84797]">UI/UX</span> & Brand Designer
+                        <span className="block text-[#]">Hi! I'm</span>
+                        <span className="block text-[#e84797]">Nur Fitri Lukitania</span>
                     </h1>
-                    <p className="text-gray-600 max-w-md">
-                        Transforming ideas into stunning visuals – UI/UX and brand design
-                        that captivates, engages, and delivers results.
+                    <div className="h-1 w-24 bg-pink-400 rounded-full"></div>
+                    <p className="text-pink-500 text-base md:text-lg font-semibold">
+                        Welcome to my portfolio.
                     </p>
+
+                    <p className="text-gray-600 max-w-md leading-relaxed text-sm md:text-base">
+                        <span className="font-semibold text-gray-800">
+                            Here you’ll find two sides of my journey:
+                        </span>
+                        <br />
+                        <span className="text-[#e84797] font-medium">
+                            Digital Product
+                        </span>{" "}
+                        and{" "}
+                        <span className="text-blue-600 font-medium">
+                            Cyber Security
+                        </span>.
+                    </p>
+
+
                     <div className="flex space-x-4 mt-6">
                         <button className="px-6 py-3 rounded-full bg-[#304a91] text-white font-medium shadow transition hover:-translate-y-0.5 hover:shadow-lg">
                             Contact Me

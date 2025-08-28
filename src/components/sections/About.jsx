@@ -151,13 +151,8 @@ export const About = () => {
     ];
 
 
-    return (<section id="about" className="min-h-screen flex items-center justify-center py-20 bg-[#d6e6fd]" >
+    return (<section id="about" className="min-h-screen flex items-center justify-center py-10 bg-[#d6e6fd]" >
         <div className="px-4 items-center justify-center">
-
-            <h2 className=" max-w-3xl mx-auto text-3xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-900 bg-clip-text text-transparent text-center">
-                {""}
-                About Me
-            </h2>
 
             <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
@@ -171,13 +166,22 @@ export const About = () => {
                 </div>
                 <div className="col-span-2 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
                     <h1 className="space-y-4 flex flex-wrap text-black font-bold text-5xl">
-                        <span className="mr-3 text-[#304a91]">Hi!</span>
-                        <span className="mr-3 text-[#304a91]">I'm</span>
-                        <span className="mr-3 text-[#e84797]">Tania</span>
+                        <span className="mr-3 text-[#304a91]">About</span>
+                        <span className="mr-3 text-[#e84797]">Me</span>
                     </h1>
                     <div className="space-y-4 texttext-[#1F4529]">
-                        <div className="rounded-xl border-white/10 border hover:-translate-y-1 transition-all ">
-                            bla bla bla bla bla bla bla bla bla bla bla bla
+                        <div className="rounded-xl border-white/10 border hover:-translate-y-1 transition-all text-justify">
+                            I’m passionate about Digital Product and Cyber Security—two fields that may seem different, but actually complete each other.
+
+                            My interest in Digital Product comes from the excitement of creating solutions that people genuinely find useful.
+
+                            At the same time, I believe every great product must also be secure, which led me to explore Cyber Security as a complementary skill.
+
+                            Over the years, I’ve developed skills in UI/UX design, product research, and data analysis, alongside my growing knowledge in security fundamentals and digital forensics.
+
+                            This combination allows me to not only think about how a product works, but also how to keep it safe for users.
+
+                            Beyond work, I enjoy continuous learning, exploring new technologies, and collaborating with others to solve meaningful challenges.
                         </div>
                     </div>
                 </div>
@@ -188,7 +192,7 @@ export const About = () => {
 
 
 
-            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-5 ">
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-5 py-10">
                 <div className="p-6 rounded-xl bg-pink-50 border-transparent border hover:-translate-y-1 transition-all ">
                     <h3 className="text-xl font-bold mb-4 text-center"> 🏫 Education </h3>
                     <ul className="list-disc list-inside text-[#e84797] space-y-2">
