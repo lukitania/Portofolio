@@ -39,7 +39,7 @@ export const Timeline = ({
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
-          <div key={index} className="flex justify-start pt-10 md:pt-2 md:gap-10 mb-25">
+          <div key={index} className="flex justify-start pt-10 md:pt-15 md:gap-2 mb-25">
             <div
               className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div
@@ -48,12 +48,12 @@ export const Timeline = ({
                   className="h-4 w-4 rounded-full bg-[#304a91] dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <h3
-                className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-[#e84797] dark:text-neutral-500 ">
+                className="hidden md:block text-xl md:pl-20 md:text-3xl font-bold text-[#e84797] dark:text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+            <div className="relative pl-20 pr-4 md:pl-1 w-full">
               <h3
                 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}

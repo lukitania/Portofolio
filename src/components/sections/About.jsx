@@ -24,28 +24,28 @@ export const About = () => {
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-30"
                         />
                         <img
                             src="https://assets.aceternity.com/templates/startup-2.webp"
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-30"
                         />
                         <img
                             src="https://assets.aceternity.com/templates/startup-3.webp"
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="col-span-2 h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                            className="col-span-2 h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-30"
                         />
                         <img
                             src="https://assets.aceternity.com/templates/startup-4.webp"
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-30"
                         />
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export const About = () => {
                 <div>
                     <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
                         During my internship at
-                        <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Yayasan Pendidikan Telkom</span>,
+                        <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"> Yayasan Pendidikan Telkom</span>,
                         I optimized the <span className="font-semibold text-indigo-600">Wi-Fi network</span> with <span className="font-semibold text-purple-600">Ruijie Cloud</span>, analyzed <span className="font-semibold text-pink-500">signal coverage</span>, recommended additional <span className="font-semibold text-green-600">APs</span>, and improved <span className="font-semibold text-blue-600">network stability</span> to support a smooth <span className="italic font-medium text-purple-500">digital learning experience</span>.
                     </p>
 
@@ -192,11 +192,11 @@ export const About = () => {
         },
 
         {
-            title: "Okt - Apr 2024",
+            title: "September 2022",
             content: (
                 <div>
                     <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
-                        Joined FORESTY (Forensic And Security Laboratory) as a member involved in Digital Forensic research. Focused on exploring digital investigation methods, analyzing electronic traces, and applying security technologies to identify and respond to cyber incidents. This experience deepened my technical insight and understanding of evidence-based digital investigation practices.
+                        Sponsorship Division Steering Committee – Telkom Edutainment 2023. <br/> Secured sponsors and media partners, obtaining funding, facilities, and coverage to support the event’s success. Strengthened skills in negotiation, communication, and stakeholder management.
                         
                     </p>
 
@@ -235,6 +235,52 @@ export const About = () => {
                 </div>
             ),
         },
+
+        {
+            title: "Agust 2022",
+            content: (
+                <div>
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+                        Sponsorship Division – INTERFEST 2022. <br/> Managed sponsorship proposals, outreach, and partner relations to secure support and ensure mutual value, contributing to the successful execution of one of the largest Informatics Engineering events at Telkom University.
+                        
+                    </p>
+
+
+
+                    <div className="grid grid-cols-2 gap-4">
+                        <img
+                            src="https://assets.aceternity.com/pro/hero-sections.png"
+                            alt="hero template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/features-section.png"
+                            alt="feature template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/pro/bento-grids.png"
+                            alt="bento template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/cards.png"
+                            alt="cards template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                    </div>
+                </div>
+            ),
+        },
+
     ];
 
 
