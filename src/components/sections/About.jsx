@@ -7,12 +7,17 @@ export const About = () => {
 
     const data = [
         {
-            title: "2024",
+            title: "July 2025",
             content: (
                 <div>
-                    <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Built and launched Aceternity UI and Aceternity UI Pro from scratch
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+                        Joined the <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">MDA Program</span>, an experience at
+                        <span className="font-semibold"> Bank Mandiri</span> that challenged me to step out of my comfort zone, collaborate with amazing people, and sharpen my skills in
+                        <span className="italic text-indigo-500"> problem-solving</span> and
+                        <span className="italic text-pink-500"> innovation</span>, especially in contributing to digital product development such as
+                        <span className="font-semibold text-amber-500"> Livin’ Sukha</span>.
                     </p>
+
                     <div className="grid grid-cols-2 gap-4">
                         <img
                             src="https://assets.aceternity.com/templates/startup-1.webp"
@@ -33,7 +38,7 @@ export const About = () => {
                             alt="startup template"
                             width={500}
                             height={500}
-                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                            className="col-span-2 h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
                         <img
                             src="https://assets.aceternity.com/templates/startup-4.webp"
@@ -47,17 +52,20 @@ export const About = () => {
             ),
         },
         {
-            title: "Early 2023",
+            title: "May 2025",
             content: (
                 <div>
-                    <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        I usually run out of copy, but when I see content this big, I try to
-                        integrate lorem ipsum.
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+
+                        I graduated in <span className="font-semibold text-pink-500">May 2025</span> with a thesis titled
+                        <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"> ‘Swin-BiLSTM with Attention for Face Swap Detection in Deepfake Videos’</span>.
                     </p>
-                    <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Lorem ipsum is for people who are too lazy to write copy. But we are
-                        not. Here are some more example of beautiful designs I built.
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+
+                        This work was further recognized and presented at the
+                        <span className="font-semibold text-amber-500"> International Conference ICOICT on July 30, 2025</span>.
                     </p>
+
                     <div className="grid grid-cols-2 gap-4">
                         <img
                             src="https://assets.aceternity.com/pro/hero-sections.png"
@@ -92,29 +100,108 @@ export const About = () => {
             ),
         },
         {
-            title: "Changelog",
+            title: "June 2024",
             content: (
                 <div>
-                    <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Deployed 5 new components on Aceternity today
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+                        During my internship at
+                        <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Yayasan Pendidikan Telkom</span>,
+                        I optimized the <span className="font-semibold text-indigo-600">Wi-Fi network</span> with <span className="font-semibold text-purple-600">Ruijie Cloud</span>, analyzed <span className="font-semibold text-pink-500">signal coverage</span>, recommended additional <span className="font-semibold text-green-600">APs</span>, and improved <span className="font-semibold text-blue-600">network stability</span> to support a smooth <span className="italic font-medium text-purple-500">digital learning experience</span>.
                     </p>
-                    <div className="mb-8">
-                        <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✅ Card grid component
-                        </div>
-                        <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✅ Startup template Aceternity
-                        </div>
-                        <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✅ Random file upload lol
-                        </div>
-                        <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✅ Himesh Reshammiya Music CD
-                        </div>
-                        <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✅ Salman Bhai Fan Club registrations open
-                        </div>
+
+
+
+                    <div className="grid grid-cols-2 gap-4">
+                        <img
+                            src="https://assets.aceternity.com/pro/hero-sections.png"
+                            alt="hero template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/features-section.png"
+                            alt="feature template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/pro/bento-grids.png"
+                            alt="bento template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/cards.png"
+                            alt="cards template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
                     </div>
+                </div>
+            ),
+        },
+
+        {
+            title: "Februari 2024",
+            content: (
+                <div>
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+                        Independent Study at <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Bisa AI</span>
+                        . Focused on <span className="font-semibold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">Cyber Security</span>.
+                        
+                    </p>
+
+
+
+                    <div className="grid grid-cols-2 gap-4">
+                        <img
+                            src="https://assets.aceternity.com/pro/hero-sections.png"
+                            alt="hero template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/features-section.png"
+                            alt="feature template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/pro/bento-grids.png"
+                            alt="bento template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                        <img
+                            src="https://assets.aceternity.com/cards.png"
+                            alt="cards template"
+                            width={500}
+                            height={500}
+                            className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+                        />
+                    </div>
+                </div>
+            ),
+        },
+
+        {
+            title: "Okt - Apr 2024",
+            content: (
+                <div>
+                    <p className="mb-8 text-sm md:text-base leading-relaxed text-neutral-700 dark:text-neutral-300 text-justify">
+                        Joined FORESTY (Forensic And Security Laboratory) as a member involved in Digital Forensic research. Focused on exploring digital investigation methods, analyzing electronic traces, and applying security technologies to identify and respond to cyber incidents. This experience deepened my technical insight and understanding of evidence-based digital investigation practices.
+                        
+                    </p>
+
+
+
                     <div className="grid grid-cols-2 gap-4">
                         <img
                             src="https://assets.aceternity.com/pro/hero-sections.png"
